@@ -204,6 +204,14 @@ what is the use of docker diff?
 
 docker diff <cid/cname>
 
+docker diff is used to check the changes made to the container’s filesystem compared to the original Docker image.
+In simple words:
+It shows what files were added, modified, or deleted inside a running or stopped container.
+Why docker diff is needed
+To debug containers
+To see what changed after container start
+To track manual changes done in interactive mode
+To identify unexpected file modifications
 
 
 what is docker commit?
@@ -211,6 +219,15 @@ what is docker commit?
 
 docker commit <cid/cname> kkeducation12345/java-web-app:24
 
+
+docker commit is used to create a new Docker image from an existing container, including all filesystem changes made inside that container.
+In simple terms:
+It converts a modified container → into a reusable image.
+Why docker commit is used
+Save manual changes done inside a container
+Create a temporary image for testing
+Capture a working state during debugging
+⚠️ Not recommended for production (Dockerfile is best practice)
 
 =================================================================================================================
 
