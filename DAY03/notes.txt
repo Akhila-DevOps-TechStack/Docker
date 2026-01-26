@@ -111,9 +111,13 @@ How to create a container in interative mode?
 docker run -it --name test ubuntu /bin/bash
 
 ======================================================================
-
+Real-time DevOps example (Interview)
+“We use Docker interactive mode mainly for debugging containers, testing commands, or inspecting application behavior inside the container.”
+-----------------------------------------------------------------------------------
+One-line interview answer 🎯
+Interactive mode in Docker allows users to interact with a running container via terminal using -it flags
 What is Interactive mode in Docker?
-
+------------------------------------------------------------------------------------
 Interactive mode allows you to interact with a container through the terminal (keyboard input + live output), just like logging into a Linux server.
 
 It is mainly used for:
